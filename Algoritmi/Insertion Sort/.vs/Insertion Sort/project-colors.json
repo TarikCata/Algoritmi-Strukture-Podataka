@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a1fb34e3-a56d-4ed4-8c32-651689bd9dc6": {
+      "ProjectGuid": "a1fb34e3-a56d-4ed4-8c32-651689bd9dc6",
+      "DisplayName": "Insertion Sort",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
