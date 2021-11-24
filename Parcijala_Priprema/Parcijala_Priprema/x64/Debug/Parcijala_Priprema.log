@@ -1,2 +1,6 @@
 ﻿  Source.cpp
+C:\Users\tarik\OneDrive\Documents\Algoritmi-Strukture-Podataka\Algoritmi-Strukture-Podataka\Parcijala_Priprema\Parcijala_Priprema\zadatak2.h(28,11): warning C4101: 'pom': unreferenced local variable
+C:\Users\tarik\OneDrive\Documents\Algoritmi-Strukture-Podataka\Algoritmi-Strukture-Podataka\Parcijala_Priprema\Parcijala_Priprema\zadatak2.h(53,22): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\tarik\OneDrive\Documents\Algoritmi-Strukture-Podataka\Algoritmi-Strukture-Podataka\Parcijala_Priprema\Parcijala_Priprema\zadatak2.h(54,29): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\tarik\OneDrive\Documents\Algoritmi-Strukture-Podataka\Algoritmi-Strukture-Podataka\Parcijala_Priprema\Parcijala_Priprema\zadatak2.h(55,22): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
   Parcijala_Priprema.vcxproj -> C:\Users\tarik\OneDrive\Documents\Algoritmi-Strukture-Podataka\Algoritmi-Strukture-Podataka\Parcijala_Priprema\x64\Debug\Parcijala_Priprema.exe

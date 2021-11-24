@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\tarik\OneDrive\Documents\Algoritmi-Strukture-Podataka\Algoritmi-Strukture-Podataka\Algoritmi\Selection Sort\Selection Sort\f1.h(16,22): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\tarik\OneDrive\Documents\Algoritmi-Strukture-Podataka\Algoritmi-Strukture-Podataka\Algoritmi\Selection Sort\Selection Sort\f1.h(17,30): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\tarik\OneDrive\Documents\Algoritmi-Strukture-Podataka\Algoritmi-Strukture-Podataka\Algoritmi\Selection Sort\Selection Sort\f1.h(18,22): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  Selection Sort.vcxproj -> C:\Users\tarik\OneDrive\Documents\Algoritmi-Strukture-Podataka\Algoritmi-Strukture-Podataka\Algoritmi\Selection Sort\x64\Debug\Selection Sort.exe

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e95b1686-c10e-4227-973b-78cde9863179": {
+      "ProjectGuid": "e95b1686-c10e-4227-973b-78cde9863179",
+      "DisplayName": "Selection Sort",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
