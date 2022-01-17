@@ -1,11 +1,21 @@
 #include <iostream>
+#include <random>
+
 #include <list>
 #include "Stack.h"
 #include "Red.h"
 #include "Lista.h"
+#include "Heap.h"
 
 using namespace std;
+int getRandom()
+{
+	random_device dev;
+	mt19937 rng(dev());
+	uniform_int_distribution<mt19937::result_type> dist6(10, 100);
 
+	return dist6(rng);
+}
 void fStack()
 {
 	Stack<int> stek;
@@ -58,11 +68,23 @@ void fLista() {
 	if (l.empty())
 		cout << "\nLista ispraznjena\n";*/
 }
+void fHeap()
+{
+	Heap<int> h;
+	for (int i = 0; i < 5; i++)
+		h.dodaj(getRandom());
 
+
+	for (int i = 0; i < 5; i++)
+	{
+		cout << "Izbacujemo " << h.remove() << endl;
+	}
+}
 int main() {
 	//fStack();
 	//fRed();
-	fLista();
+	//fLista();
+	fHeap();
 
 	return 0;
 }
