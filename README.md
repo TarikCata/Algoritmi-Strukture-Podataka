@@ -11,3 +11,5 @@
 [Selection Sort](https://github.com/TarikCata/Algoritmi-Strukture-Podataka/blob/main/Algoritmi/Selection%20Sort/Selection%20Sort/SelectionSort.h)
 
 [Quick Sort](https://github.com/TarikCata/Algoritmi-Strukture-Podataka/blob/main/Algoritmi/Quick%20Sort/Quick%20Sort/QuickSort.h)
+
+[Hashing](https://github.com/TarikCata/Algoritmi-Strukture-Podataka/tree/main/Hashing)
