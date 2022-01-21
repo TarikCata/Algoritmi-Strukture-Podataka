@@ -13,8 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Hashiranje">
+    <Filter Include="Hashiranje2D">
       <UniqueIdentifier>{92cc77f4-8c40-4bde-bf78-4b2d6fa2799b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashiranje3D">
+      <UniqueIdentifier>{8ee9f859-de4d-4103-a3aa-c9b00dfb1ee4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,16 +27,28 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Node.h">
-      <Filter>Hashiranje</Filter>
+      <Filter>Hashiranje2D</Filter>
     </ClInclude>
     <ClInclude Include="Tacka2D.h">
-      <Filter>Hashiranje</Filter>
+      <Filter>Hashiranje2D</Filter>
     </ClInclude>
     <ClInclude Include="Lista.h">
-      <Filter>Hashiranje</Filter>
+      <Filter>Hashiranje2D</Filter>
     </ClInclude>
     <ClInclude Include="HashChained.h">
-      <Filter>Hashiranje</Filter>
+      <Filter>Hashiranje2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Tacka3D.h">
+      <Filter>Hashiranje3D</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Hashiranje3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cvor.h">
+      <Filter>Hashiranje3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash3D.h">
+      <Filter>Hashiranje3D</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

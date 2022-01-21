@@ -142,10 +142,14 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cvor.h" />
+    <ClInclude Include="Hash3D.h" />
     <ClInclude Include="HashChained.h" />
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Tacka2D.h" />
+    <ClInclude Include="Tacka3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

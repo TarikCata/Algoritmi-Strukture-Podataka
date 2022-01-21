@@ -1,48 +1,37 @@
 #include <iostream>
-#include <list>
-#include "Tacka2D.h"
-#include "HashChained.h"
+//#include <list>
+//#include "Tacka2D.h"
+//#include "HashChained.h"
+#include "Tacka3D.h"
+#include "Hash3D.h"
 using namespace std;
 
 int main()
 {
-	Tacka2D tacka1(1, 2);
-	Tacka2D tacka2(3, 4);
-	Tacka2D tacka3(5, 6);
-	Tacka2D tacka4(7, 8);
-	Tacka2D tacka5(9, 10);
-	Tacka2D tacka6(11, 12);
-	Tacka2D tacka7(13, 14);
-	Tacka2D tacka8(15, 16);
-	Tacka2D tacka9(17, 18);
-	Tacka2D tacka10(19, 20);
-
-	HashChained<Tacka2D> hash;
-	hash.add(tacka1);
-	hash.add(tacka2);
-	hash.add(tacka3);
-	hash.add(tacka4);
-	hash.add(tacka5);
-	hash.add(tacka6);
-	hash.add(tacka7);
-	hash.add(tacka8);
-	hash.add(tacka9);
-	hash.add(tacka10);
-	hash.print();
 	
-	hash.remove(tacka1);
-	cout << endl << endl;
-	hash.print();
-	hash.remove(tacka2);
-	hash.remove(tacka3);
-	hash.remove(tacka4);
-	hash.remove(tacka5);
-	hash.remove(tacka6);
-	hash.remove(tacka7);
-	hash.remove(tacka8);
-	hash.remove(tacka9);
-	hash.remove(tacka10);
-	hash.print();
+	Tacka3D tacka1(3, 1, 2);
+	Tacka3D tacka2(8, 6, 45);
+	Tacka3D tacka3(2, 45, 39);
+	Tacka3D tacka4(43, 32, 45);
+	Tacka3D tacka5(12, 65, 32);
+	Tacka3D tacka6(9, 64, 54);
+	Tacka3D tacka7(7, 73, 75);
+	Tacka3D tacka8(3, 23, 70);
+	Tacka3D tacka9(5, 40, 2);
+	Tacka3D tacka10(19, 10, 1);
 
+	Hash3D<Tacka3D> tacke;
+	tacke.dodaj(tacka1);
+	tacke.dodaj(tacka2);
+	tacke.dodaj(tacka3);
+	tacke.dodaj(tacka4);
+	tacke.dodaj(tacka6);
+	tacke.dodaj(tacka7);
+	tacke.dodaj(tacka8);
+	tacke.dodaj(tacka9);
+	tacke.dodaj(tacka10);
+	tacke.print();
+	tacke.ukloni(tacka1);
+	tacke.print();
 	return 0;
 }
