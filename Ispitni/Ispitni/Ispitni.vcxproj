@@ -148,8 +148,13 @@
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="Node.h" />
+    <ClInclude Include="PrioritetniRedPov.h" />
+    <ClInclude Include="PrioritetniRedSekv.h" />
     <ClInclude Include="Tacka2D.h" />
     <ClInclude Include="Tacka3D.h" />
+    <ClInclude Include="teshHash3D.h" />
+    <ClInclude Include="testHash2D.h" />
+    <ClInclude Include="testPrioritetniRedSekv.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

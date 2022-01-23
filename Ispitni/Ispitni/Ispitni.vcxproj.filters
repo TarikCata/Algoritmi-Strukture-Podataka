@@ -19,6 +19,12 @@
     <Filter Include="Hashiranje3D">
       <UniqueIdentifier>{8ee9f859-de4d-4103-a3aa-c9b00dfb1ee4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PrioritetniRedSekv">
+      <UniqueIdentifier>{b3bbcac7-b3f9-4f8e-a9a9-c93360082b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrioritetniRedPov">
+      <UniqueIdentifier>{5dbf3442-e632-4bcd-8724-64a5f3902efd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -49,6 +55,21 @@
     </ClInclude>
     <ClInclude Include="Hash3D.h">
       <Filter>Hashiranje3D</Filter>
+    </ClInclude>
+    <ClInclude Include="PrioritetniRedSekv.h">
+      <Filter>PrioritetniRedSekv</Filter>
+    </ClInclude>
+    <ClInclude Include="teshHash3D.h">
+      <Filter>Hashiranje3D</Filter>
+    </ClInclude>
+    <ClInclude Include="testPrioritetniRedSekv.h">
+      <Filter>PrioritetniRedSekv</Filter>
+    </ClInclude>
+    <ClInclude Include="testHash2D.h">
+      <Filter>Hashiranje2D</Filter>
+    </ClInclude>
+    <ClInclude Include="PrioritetniRedPov.h">
+      <Filter>PrioritetniRedPov</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
