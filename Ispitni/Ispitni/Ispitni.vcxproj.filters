@@ -71,5 +71,8 @@
     <ClInclude Include="PrioritetniRedPov.h">
       <Filter>PrioritetniRedPov</Filter>
     </ClInclude>
+    <ClInclude Include="TestPrioritetniRedPov.h">
+      <Filter>PrioritetniRedPov</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

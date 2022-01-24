@@ -154,6 +154,7 @@
     <ClInclude Include="Tacka3D.h" />
     <ClInclude Include="teshHash3D.h" />
     <ClInclude Include="testHash2D.h" />
+    <ClInclude Include="TestPrioritetniRedPov.h" />
     <ClInclude Include="testPrioritetniRedSekv.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
