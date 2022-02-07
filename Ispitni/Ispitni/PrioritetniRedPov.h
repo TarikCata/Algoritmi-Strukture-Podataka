@@ -20,11 +20,6 @@ public:
 	void dodaj(T& obj)
 	{
 		auto novi = new Cvor<T>(obj, nullptr);
-		if (isEmpty())
-		{
-			prvi = novi;
-			return;
-		}
 		auto t = prvi;
 		Cvor<T>* pt = nullptr;
 		while (t != nullptr)

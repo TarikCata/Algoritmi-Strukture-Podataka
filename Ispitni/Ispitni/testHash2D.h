@@ -25,6 +25,7 @@ void testHash2D()
 	tacke.add(tacka9);
 	tacke.add(tacka10);
 	tacke.print();
+	cout << "Nakon brisanja \n";
 	tacke.remove(tacka1);
 	tacke.print();
 }

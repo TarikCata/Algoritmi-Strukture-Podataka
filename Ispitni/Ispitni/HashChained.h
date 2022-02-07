@@ -29,7 +29,7 @@ public:
 	{
 		int n = hashFunction(data);
 		auto& cell = map[n];
-		cell.ukloni();
+		cell.ukloni(data);
 	}
 	void print()
 	{

@@ -27,12 +27,27 @@ public:
 			brojac++;
 		}
 	}
-	void ukloni()
+	void ukloni(T& obj)
 	{
 		if (first == nullptr)
 			return;
-		auto temp = first;
-		first = first->next;
+		Node<T>* temp = first;
+		Node<T>* pt = nullptr;
+
+		while (temp != nullptr)
+		{
+			if (temp->data == obj)
+				break;
+			pt = temp;
+			temp = temp->next;
+		}
+
+		if (temp == nullptr)
+			return;
+		if (pt == nullptr)
+			first = first->next;
+		else
+			pt->next = temp->next;
 		delete temp;
 	}
 

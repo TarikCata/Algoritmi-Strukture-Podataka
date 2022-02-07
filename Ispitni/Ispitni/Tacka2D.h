@@ -15,4 +15,8 @@ struct Tacka2D
 		c << "(" << tacka.x << "  " << tacka.y << ")";
 		return c;
 	}
+	bool operator==(const Tacka2D& t)
+	{
+		return t.x == this->x && t.y == this->y;
+	}
 };
