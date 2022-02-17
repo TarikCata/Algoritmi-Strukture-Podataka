@@ -13,3 +13,5 @@
 [Quick Sort](https://github.com/TarikCata/Algoritmi-Strukture-Podataka/blob/main/Algoritmi/Quick%20Sort/Quick%20Sort/QuickSort.h)
 
 [Hashing](https://github.com/TarikCata/Algoritmi-Strukture-Podataka/tree/main/Hashing)
+
+[Dijkstra](https://github.com/TarikCata/Algoritmi-Strukture-Podataka/blob/main/Algoritmi/Dijkstra/Dijkstra/Source.cpp)
